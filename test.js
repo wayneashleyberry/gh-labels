@@ -8,8 +8,6 @@ test('exported value is an array', function (t) {
   t.ok(isArray(labels), '')
 })
 
-console.log(labels)
-
 test('exported objects have a name and color', function (t) {
   t.plan(labels.length * 2)
   labels.forEach(function (issue) {
