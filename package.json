@@ -1,0 +1,35 @@
+{
+  "name": "@next/gh-labels",
+  "version": "1.0.0",
+  "description": "GitHub labels.",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "standard",
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/we-are-next/gh-labels.git"
+  },
+  "keywords": [
+    "github",
+    "labels",
+    "next"
+  ],
+  "author": {
+    "name": "Wayne Ashley Berry",
+    "email": "wayne@wearenext.co.za",
+    "url": "https://twitter.com/waynethebrain"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/we-are-next/gh-labels/issues"
+  },
+  "homepage": "https://github.com/we-are-next/gh-labels#readme",
+  "devDependencies": {
+    "lodash.isarray": "^3.0.4",
+    "lodash.isstring": "^3.0.1",
+    "standard": "^4.5.2",
+    "tape": "^4.0.0"
+  }
+}
