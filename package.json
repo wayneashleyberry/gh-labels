@@ -1,7 +1,7 @@
 {
   "name": "@next/gh-labels",
   "version": "1.0.0",
-  "description": "GitHub labels.",
+  "description": "GitHub labels we use at Next.",
   "main": "index.js",
   "scripts": {
     "pretest": "standard",
