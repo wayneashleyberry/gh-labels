@@ -8,9 +8,9 @@
 [![Dependency Status](https://david-dm.org/we-are-next/gh-labels.svg)](https://david-dm.org/we-are-next/gh-labels)
 [![devDependency Status](https://david-dm.org/we-are-next/gh-labels/dev-status.svg)](https://david-dm.org/we-are-next/gh-labels#info=devDependencies)
 
-### Manually creating labels
+### Manual Usage
 
-To manually create labels on _an existing repo_, there are two things that
+To manually add labels to _an existing repo_, there are two things that
 you'll need.
 
 Firstly, install [github-labels](https://www.npmjs.com/package/github-labels):
@@ -37,4 +37,18 @@ You may optionally remove any existing labels by using the force option:
 
 ```sh
 labels -c gh-labels/config.json -f user/repo
+```
+
+### Programmatic Usage
+
+```sh
+npm install --save @next/gh-labels
+```
+
+```js
+var labels = require('@next/gh-labels')
+
+labels.forEach(function (label) {
+  // do something
+})
 ```
