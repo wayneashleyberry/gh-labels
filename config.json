@@ -1,5 +1,29 @@
 [
   {
+    "name": "feature",
+    "color": "91ca55"
+  },
+  {
+    "name": "enhancement",
+    "color": "65c0fd"
+  },
+  {
+    "name": "optimization",
+    "color": "5ebeff"
+  },
+  {
+    "name": "in progress",
+    "color": "f9c828"
+  },
+  {
+    "name": "discussion",
+    "color": "c9307c"
+  },
+  {
+    "name": "question",
+    "color": "c9307c"
+  },
+  {
     "name": "bug",
     "color": "ea3b49"
   },
@@ -40,20 +64,12 @@
     "color": "fdc078"
   },
   {
-    "name": "enhancement",
-    "color": "65c0fd"
+    "name": "ux",
+    "color": "fdc078"
   },
   {
-    "name": "optimization",
-    "color": "5ebeff"
-  },
-  {
-    "name": "feature",
-    "color": "91ca55"
-  },
-  {
-    "name": "in progress",
-    "color": "f9c828"
+    "name": "prototype",
+    "color": "fdc078"
   },
   {
     "name": "duplicate",
@@ -76,18 +92,6 @@
     "color": "d2dae1"
   },
   {
-    "name": "prototype",
-    "color": "fdc078"
-  },
-  {
-    "name": "discussion",
-    "color": "c9307c"
-  },
-  {
-    "name": "question",
-    "color": "c9307c"
-  },
-  {
     "name": "test",
     "color": "f9e3d9"
   },
@@ -98,10 +102,6 @@
   {
     "name": "production",
     "color": "FDC1A4"
-  },
-  {
-    "name": "ux",
-    "color": "fdc078"
   },
   {
     "name": "low priority",
