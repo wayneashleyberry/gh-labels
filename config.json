@@ -40,10 +40,6 @@
     "color": "fef1c3"
   },
   {
-    "name": "copy",
-    "color": "fdc078"
-  },
-  {
     "name": "css",
     "color": "c0d5f1"
   },
@@ -69,6 +65,10 @@
   },
   {
     "name": "prototype",
+    "color": "fdc078"
+  },
+  {
+    "name": "copy",
     "color": "fdc078"
   },
   {
