@@ -11,10 +11,13 @@
 ### Manually creating labels
 
 To manually create labels on _an existing repo_, there are two things that
-you'll need... [github-labels](https://www.npmjs.com/package/github-labels)
-installed on your machine and a local copy of the
-[config.json](https://github.com/we-are-next/gh-labels/blob/master/config.json)
-in this repo.
+you'll need:
+
+- [github-labels](https://www.npmjs.com/package/github-labels) installed on
+  your machine
+- a local copy of the
+  [config.json](https://github.com/we-are-next/gh-labels/blob/master/config.json)
+  in this repo.
 
 ```sh
 npm install --global github-labels
