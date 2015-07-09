@@ -11,7 +11,9 @@
 ### Manually creating labels
 
 To manually create labels on _an existing repo_, there are two things that
-you'll need. Firstly, install [github-labels](https://www.npmjs.com/package/github-labels):
+you'll need.
+
+Firstly, install [github-labels](https://www.npmjs.com/package/github-labels):
 
 ```sh
 npm install --global github-labels
