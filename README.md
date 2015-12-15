@@ -10,7 +10,7 @@
 
 #### Deployment
 
-To get new or updated issues to be used in our GitHub webhooks you need to do
+To get new or updated labels to be used with our GitHub webhooks you need to do
 the following:
 
 1. Publish a new release of this package on NPM
