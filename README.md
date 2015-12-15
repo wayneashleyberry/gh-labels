@@ -41,7 +41,9 @@
 
 ---
 
-### Manual Usage
+#### Usage
+
+##### CLI
 
 To manually add labels to _an existing repo_, there are two things that
 you'll need.
@@ -72,7 +74,7 @@ You may optionally remove any existing labels by using the force option:
 labels -c gh-labels/config.json -f user/repo
 ```
 
-### Programmatic Usage
+##### Node
 
 ```sh
 npm install --save @next/gh-labels
@@ -85,3 +87,15 @@ labels.forEach(function (label) {
   // do something
 })
 ```
+
+#### Deployment
+
+To get new or updated issues to be used in our GitHub webhooks you need to do
+the following:
+
+1. Publish a new release of this package on NPM
+2. Update the [package.json](https://github.com/we-are-next/gh-webhooks/blob/master/package.json) over in [we-are-next/gh-webhooks](https://github.com/we-are-next/gh-webhooks)
+3. If the tests pass, the updated webhooks will be automatically deployed.
+
+If you're making a lot of updates and find publishing slow and tedious,
+check out [cut-release](https://www.npmjs.com/package/cut-release).
