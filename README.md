@@ -1,6 +1,6 @@
 # gh-labels
 
-> GitHub labels we use at [Next](http://www.wearenext.co.za/)
+> GitHub labels for [Next](https://github.com/we-are-next)
 
 [![npm](http://img.shields.io/npm/v/@next/gh-labels.svg?style=flat)](https://www.npmjs.com/package/@next/gh-labels)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
